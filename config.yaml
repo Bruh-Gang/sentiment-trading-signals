@@ -1,0 +1,52 @@
+model:
+  finbert:
+    model_name: "ProsusAI/finbert"
+    max_length: 512
+    batch_size: 16
+    device: "cpu"          # "cuda" if GPU available
+    cache_dir: ".cache/finbert"
+
+  vader:
+    enabled: true
+
+  ensemble:
+    finbert_weight: 0.70
+    vader_weight: 0.30
+
+signals:
+  long_threshold:  0.65   # sentiment score above this → LONG
+  short_threshold: 0.35   # sentiment score below this → SHORT
+  min_confidence:  0.60   # ignore low-confidence signals
+
+position_sizing:
+  kelly_fraction: 0.25    # Use 25% Kelly (conservative)
+  max_position:   0.10    # Never more than 10% of portfolio in one position
+  min_position:   0.005   # Minimum position size
+
+backtest:
+  start_date: "2019-01-01"
+  end_date:   "2023-12-31"
+  initial_capital: 100000
+  commission_bps: 5        # 5 basis points per trade
+  slippage_bps:   3        # 3 basis points slippage
+
+data:
+  news_sources:
+    - "https://feeds.finance.yahoo.com/rss/2.0/headline"
+    - "https://www.marketwatch.com/rss/topstories"
+  tickers:
+    - AAPL
+    - MSFT
+    - GOOGL
+    - AMZN
+    - NVDA
+    - TSLA
+    - META
+    - JPM
+    - GS
+    - BAC
+  lookback_days: 5         # Days of news to consider for signal
+
+logging:
+  level: INFO
+  file: logs/pipeline.log

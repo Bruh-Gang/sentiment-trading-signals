@@ -1,0 +1,31 @@
+date,ticker,headline,label,sentiment_score
+2024-01-08,AAPL,Apple beats Q1 earnings estimates by $0.15 EPS; revenue up 12% year-over-year,positive,0.89
+2024-01-09,TSLA,Tesla reports record deliveries of 484000 vehicles in Q4 2023,positive,0.82
+2024-01-10,MSFT,Microsoft raises quarterly dividend by 10%; announces $60B buyback,positive,0.91
+2024-01-11,NVDA,NVIDIA data center revenue surges 409% as AI demand explodes,positive,0.97
+2024-01-12,META,Meta Platforms misses Q4 revenue estimates; stock drops 6% after hours,negative,0.84
+2024-01-15,GOOGL,Alphabet announces 12000 job cuts in restructuring push,negative,0.78
+2024-01-16,AMZN,Amazon AWS growth accelerates to 13% in Q4 beating analyst forecasts,positive,0.85
+2024-01-17,JPM,JPMorgan Chase reports record full-year profit of $49.6 billion,positive,0.93
+2024-01-18,BAC,Bank of America Q4 profit falls 56% on one-time charges and higher rates,negative,0.88
+2024-01-19,GS,Goldman Sachs beats estimates as trading revenue jumps 26%,positive,0.79
+2024-01-22,AAPL,Apple faces antitrust investigation in EU over App Store practices,negative,0.71
+2024-01-23,TSLA,Tesla cuts prices again in China amid intensifying EV competition,negative,0.76
+2024-01-24,MSFT,Microsoft Copilot drives 28% surge in Azure AI services revenue,positive,0.88
+2024-01-25,NVDA,NVIDIA announces next-gen Blackwell GPU architecture at GTC,positive,0.94
+2024-01-26,META,Meta stock surges 20% on strong ad revenue growth and efficiency gains,positive,0.96
+2024-01-29,GOOGL,Google Search ad revenue rebounds 11% beating Street expectations,positive,0.83
+2024-01-30,AMZN,Amazon logistics automation cuts costs by $1.2B in Q4 2023,positive,0.81
+2024-01-31,JPM,Jamie Dimon warns of geopolitical risks and potential stagflation,negative,0.67
+2024-02-01,BAC,Bank of America upgrades to Buy at Morgan Stanley with $45 price target,positive,0.77
+2024-02-02,GS,Goldman Sachs to lay off 3000 employees in consumer banking exit,negative,0.82
+2024-02-05,AAPL,Apple Vision Pro launches to mixed reviews; high price limits adoption,neutral,0.51
+2024-02-06,TSLA,NHTSA opens investigation into Tesla Autopilot following accidents,negative,0.86
+2024-02-07,MSFT,Microsoft GitHub Copilot reaches 1 million paid subscribers,positive,0.84
+2024-02-08,NVDA,NVDA stock hits all-time high; market cap surpasses $1.8 trillion,positive,0.92
+2024-02-09,META,Advertisers return to Meta as brand safety concerns ease,positive,0.74
+2024-02-12,GOOGL,Alphabet Bard AI rebranded to Gemini; Ultra model outperforms GPT-4,positive,0.80
+2024-02-13,AMZN,Amazon raises Prime subscription price by $20 in European markets,negative,0.62
+2024-02-14,JPM,JPMorgan initiates coverage of 15 AI companies with Overweight ratings,positive,0.75
+2024-02-15,BAC,Bank of America credit card delinquencies rise to highest level since 2010,negative,0.79
+2024-02-16,NVDA,NVIDIA Q4 revenue of $22.1B triples year-over-year; raises Q1 guidance 9%,positive,0.98
